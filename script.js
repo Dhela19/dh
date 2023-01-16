@@ -25,8 +25,8 @@ $("#terminal").terminal(async function (command, terminal) {
     {
         greetings: 'Hi there, how may i help you',
         name: 'DH',
-        height: auto,
-        width: auto,
-        prompt: '> '
+        height: 300,
+        width: 400,
+        prompt: '>> '
     });
 //the temperature value is used to set the randomness of the output 
