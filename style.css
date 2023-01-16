@@ -1,0 +1,18 @@
+body{
+    display: grid;
+  place-items: center;
+  /* text-align: center; */
+}
+#terminal{
+    border-radius:10px;
+    font-size:20px;
+    background-color:#15b6ff38;
+    margin-top:20px;
+    background-image: url("./ai.gif");
+    padding:4rem, 4rem;
+    box-shadow: -3px -3px 7px #ffffff73,
+              2px 2px 5px rgba(94, 104, 121, 0.288);
+}
+#txt{
+    color:blue;
+}
