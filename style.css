@@ -4,6 +4,7 @@ body{
   text-align: center;
 }
 #terminal{
+    text-align: left;
     border-radius:10px;
     font-size:20px;
     background-color:#15b6ff38;
