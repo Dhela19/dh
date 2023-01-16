@@ -8,7 +8,7 @@ $("#terminal").terminal(async function (command, terminal) {
                 method: "POST",
                 headers: {
                     "content-type": "application/json",
-                    Authorization: "Bearer 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",
+                    Authorization: "Bearer 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",
                 },
                     }
         ).then((response) => {
