@@ -1,7 +1,7 @@
 body{
     display: grid;
   place-items: center;
-  /* text-align: center; */
+  text-align: center;
 }
 #terminal{
     border-radius:10px;
