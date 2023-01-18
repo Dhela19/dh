@@ -8,7 +8,7 @@ $("#terminal").terminal(async function (command, terminal) {
                 method: "POST",
                 headers: {
                     "content-type": "application/json",
-                    Authorization: "Bearer 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",
+                    Authorization: "Bearer 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",
                 },
                     }
         ).then((response) => {
@@ -25,8 +25,8 @@ $("#terminal").terminal(async function (command, terminal) {
     {
         greetings: 'Hi there, how may i help you',
         name: 'DH',
-        height: 300,
-        width: 400,
+        
+        
         prompt: '>> '
     });
 //the temperature value is used to set the randomness of the output 
