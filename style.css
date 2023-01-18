@@ -26,6 +26,7 @@ body{
     color:#20657f;
     font-weight:600;
 }
+/*
 @media screen and (min-width:600px){
     body {
         background:linear-gradient(45deg, #2b3356 40%,#244456 48%);
@@ -38,4 +39,4 @@ body{
 	backdrop-filter: blur(10px);
     }
     
-}
+} */
