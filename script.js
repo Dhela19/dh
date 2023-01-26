@@ -5,7 +5,8 @@ $("#terminal").terminal(async function (command, terminal) {
         
         prompt: '>> '
      function redirect(){
-      terminal.echo("This Version is Depreciated, Redirecting to the newest version") 
+      terminal.echo("This Version is Depreciated, Redirecting to the newest version");
+alert("Redirecting to 2.1") 
 window.location.href="https://dh2-0.vercel.app"
 }
     });
