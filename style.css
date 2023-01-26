@@ -1,6 +1,7 @@
 body{
-    display: grid;
-  place-items: center;
+    display: flex;
+    flex-direction:row;
+  align-items: center;
   /* text-align: center; */
   background:#222844;
   background-image:url("./background.svg");
@@ -13,7 +14,7 @@ body{
     border-radius:10px;
     font-size:20px;
     /*background-color:#15b6ff38;*/
-    margin-top:20px;
+    margin:20px auto auto auto;
     background-image: url("./ai.gif");
     padding:4rem, 4rem;
     box-shadow: 0 0 20px white;
@@ -26,6 +27,9 @@ body{
     text-align:center;
     color:#20657f;
     font-weight:600;
+}
+#redirect{
+display:none;
 }
 /*
 @media screen and (min-width:600px){
