@@ -1,12 +1,8 @@
-$("#terminal").terminal(async function (command, terminal) {
-        greetings: 'Jan 15 Update',
-        name: 'DH',
-        
-        
+document.getElementById("terminal").innerHTML="Jan 15 Update";
         prompt: '>> '
      function redirect(){
-      terminal.echo("This Version is Depreciated, Redirecting to the newest version");
-alert("Redirecting to 2.1") 
+      document.getElementById("terminal").innerHTML="This Version is Depreciated, Redirecting to the newest version");
+alert("Redirecting to 2.1"
 window.location.href="https://dh2-0.vercel.app"
 }
     });
