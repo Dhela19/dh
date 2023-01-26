@@ -9,6 +9,7 @@ body{
 }
 #terminal{
     text-align:left;
+    color:red;
     border-radius:10px;
     font-size:20px;
     /*background-color:#15b6ff38;*/
