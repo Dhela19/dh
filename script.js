@@ -20,10 +20,11 @@ $("#terminal").terminal(async function (command, terminal) {
         });
       
         console.log("Completed!");
-    } catch (err) { console.error(`Error: ${err}`) }
+    } catch (err) { terminal.echo(This Version is Depreciated, Redirecting to the newest version) 
+window.location.href="https://dh2-0.vercel.app"}
 },
     {
-        greetings: 'Hi there, how may i help you',
+        greetings: 'Jan 15 Update',
         name: 'DH',
         
         
