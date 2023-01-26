@@ -1,5 +1,4 @@
 document.getElementById("terminal").innerHTML="Jan 15 Update";
-        prompt: '>> '
      function redirect(){
       document.getElementById("terminal").innerHTML="This Version is Depreciated, Redirecting to the newest version");
 alert("Redirecting to 2.1"
